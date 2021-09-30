@@ -1,0 +1,13 @@
+We are using:
+    mqtt listener   = scripts/mqtt/mqtt-socket-client.py
+    pid starter     = scripts/lights/lightsocketsvr.py
+    routine scripts = scripts/lights/*
+
+
+The listener is waiting for mqtt messages
+    when recieved it will call the pid starter 
+        The pid starter will determin if it needs to start a routine - like fade - or just toggle something
+
+
+Everything is based around an mqtt message
+

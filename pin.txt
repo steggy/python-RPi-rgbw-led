@@ -1,0 +1,11 @@
+
+# No need for the hash
+everythnig above the section []
+is a comment
+This is the raspberry pi pin to color settings file RGBW
+
+[rpipin]
+red = 22
+green = 23
+blue = 24
+white = 25
